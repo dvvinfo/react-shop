@@ -1,16 +1,17 @@
 import React from 'react';
+import styles from './Header.module.scss'
 
 const Header = () => {
     return (
         <header className="d-flex justify-between align-center p-40">
-            <div className="headerLeft">
+            <div className={styles.headerLeft}>
                 <img width={40} height={40} src="/img/logo.png" alt=""/>
                 <div className="headerInfo">
                     <h3 className="text-uppercase" >React Shop</h3>
                     <p className="opacity-5">Магазин лучших кроссовок</p>
                 </div>
             </div>
-            <ul className="headerRight d-flex align-center">
+            <ul className={styles.headerRight} >
                 <li className="mr-30">
                     <img width={20} height={20} src="/img/cart.svg" alt=""/>
                     <span>1205 руб.</span></li>
