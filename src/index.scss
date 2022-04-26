@@ -27,6 +27,11 @@ body {
 
 .cartEmpty {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
 
   p {
     width: 280px;
