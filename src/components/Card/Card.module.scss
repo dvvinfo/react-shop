@@ -4,11 +4,12 @@
     flex-direction: column;
     border: 1px solid #f3f3f3;
     border-radius: 20px;
-    width: 250px;
+    width: 240px;
     padding: 20px;
     cursor: pointer;
     transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
     margin-right: 30px;
+    margin-bottom: 30px;
     position: relative;
     .favorite {
     position: absolute;
@@ -48,5 +49,8 @@
     .CardPrice{
     flex: 0 0 auto;
     }
+  .plus{
+    cursor: pointer;
+  }
 
 }
